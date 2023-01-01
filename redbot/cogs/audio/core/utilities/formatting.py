@@ -151,7 +151,7 @@ class FormattingUtilities(MixinMeta, metaclass=CompositeMetaClass):
                     search_choice.invoked_from = "localtrack"
             return await ctx.invoke(self.command_play, query=search_choice)
 
-        songembed = discord.Embed(title=_("Track Enqueued"), description=description)
+        songembed = discord.Embed(title=("哼！乖乖听歌啦笨蛋"), description=description)
         queue_dur = await self.queue_duration(ctx)
         queue_total_duration = self.format_time(queue_dur)
         before_queue_length = len(player.queue)
@@ -165,7 +165,7 @@ class FormattingUtilities(MixinMeta, metaclass=CompositeMetaClass):
             log.debug("Query is not allowed in %r (%s)", ctx.guild.name, ctx.guild.id)
             self.update_player_lock(ctx, False)
             return await self.send_embed_msg(
-                ctx, title=_("This track is not allowed in this server.")
+                ctx, title=("可是宝贝！放不出来诶T-T！")
             )
         elif guild_data["maxlength"] > 0:
             if self.is_track_length_allowed(search_choice, guild_data["maxlength"]):
@@ -197,7 +197,7 @@ class FormattingUtilities(MixinMeta, metaclass=CompositeMetaClass):
 
         if not guild_data["shuffle"] and queue_dur > 0:
             songembed.set_footer(
-                text=_("{time} until track playback: #{position} in queue").format(
+                text=("嗯嗯！宝贝我知道你很努力！但是再坚持{time}=-=就到#{position}啦").format(
                     time=queue_total_duration, position=before_queue_length + 1
                 )
             )

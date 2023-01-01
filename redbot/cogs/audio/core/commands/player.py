@@ -49,19 +49,19 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
             if not valid_url:
                 return await self.send_embed_msg(
                     ctx,
-                    title=_("Unable To Play Tracks"),
-                    description=_("That URL is not allowed."),
+                    title=("放不出来啦傻瓜！"),
+                    description=("URL 坏坏T-T"),
                 )
         elif not await self.is_query_allowed(self.config, ctx, f"{query}", query_obj=query):
             return await self.send_embed_msg(
-                ctx, title=_("Unable To Play Tracks"), description=_("That track is not allowed.")
+                ctx, title=("啊啊啊啊！这个不行！"), description=_("That track is not allowed.")
             )
         can_skip = await self._can_instaskip(ctx, ctx.author)
         if guild_data["dj_enabled"] and not can_skip:
             return await self.send_embed_msg(
                 ctx,
-                title=_("Unable To Play Tracks"),
-                description=_("You need the DJ role to queue tracks."),
+                title=("出不来T-T"),
+                description=("如果我是DJ=-=如果！你会爱我吗T-T"),
             )
         if not self._player_check(ctx):
             if self.lavalink_connection_aborted:
@@ -78,9 +78,9 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
                 ):
                     return await self.send_embed_msg(
                         ctx,
-                        title=_("Unable To Play Tracks"),
-                        description=_(
-                            "I don't have permission to connect and speak in your channel."
+                        title=("我生气了！！"),
+                        description=(
+                            "不给权限！怎么玩！嗯？！"
                         ),
                     )
                 await lavalink.connect(
@@ -90,7 +90,7 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
             except AttributeError:
                 return await self.send_embed_msg(
                     ctx,
-                    title=_("Unable To Play Tracks"),
+                    title=("乖乖！进语音和我贴贴啦先"),
                     description=_("Connect to a voice channel first."),
                 )
             except NodeNotFound:
@@ -106,20 +106,20 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
         if (not ctx.author.voice or ctx.author.voice.channel != player.channel) and not can_skip:
             return await self.send_embed_msg(
                 ctx,
-                title=_("Unable To Play Tracks"),
+                title=("宝贝！你得先开好房间哇=-=！"),
                 description=_("You must be in the voice channel to use the play command."),
             )
         if not query.valid:
             return await self.send_embed_msg(
                 ctx,
-                title=_("Unable To Play Tracks"),
+                title=("找不到捏"),
                 description=_("No tracks found for `{query}`.").format(
                     query=query.to_string_user()
                 ),
             )
         if len(player.queue) >= 10000:
             return await self.send_embed_msg(
-                ctx, title=_("Unable To Play Tracks"), description=_("Queue size limit reached.")
+                ctx, title=("诶诶诶！是不是太多啦!"), description=_("Queue size limit reached.")
             )
 
         if not await self.maybe_charge_requester(ctx, guild_data["jukebox_price"]):
@@ -157,8 +157,8 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
             if not valid_url:
                 return await self.send_embed_msg(
                     ctx,
-                    title=_("Unable To Play Tracks"),
-                    description=_("That URL is not allowed."),
+                    title=("出不来！"),
+                    description=(" URL 坏坏啦！"),
                 )
         elif not await self.is_query_allowed(self.config, ctx, f"{query}", query_obj=query):
             return await self.send_embed_msg(
@@ -186,9 +186,9 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
                 ):
                     return await self.send_embed_msg(
                         ctx,
-                        title=_("Unable To Play Tracks"),
-                        description=_(
-                            "I don't have permission to connect and speak in your channel."
+                        title=("生气>_<"),
+                        description=(
+                            "不给权限本魔女什么都做不了呢！"
                         ),
                     )
                 await lavalink.connect(
@@ -198,7 +198,7 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
             except AttributeError:
                 return await self.send_embed_msg(
                     ctx,
-                    title=_("Unable To Play Tracks"),
+                    title=("你都不先去房间诶乖乖"),
                     description=_("Connect to a voice channel first."),
                 )
             except NodeNotFound:
@@ -214,7 +214,7 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
         if (not ctx.author.voice or ctx.author.voice.channel != player.channel) and not can_skip:
             return await self.send_embed_msg(
                 ctx,
-                title=_("Unable To Play Tracks"),
+                title=("你都不先去房间诶乖乖"),
                 description=_("You must be in the voice channel to use the play command."),
             )
         if not query.valid:
@@ -259,7 +259,7 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
                     "in a different machine than the bot and the local tracks."
                 )
             elif query.is_local and query.suffix in _PARTIALLY_SUPPORTED_MUSIC_EXT:
-                title = _("Track is not playable.")
+                title = ("出不来！给本小姐换！")
                 embed = discord.Embed(title=title)
                 embed.description = _(
                     "**{suffix}** is not a fully supported format and some tracks may not play."
@@ -290,7 +290,7 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
             self.update_player_lock(ctx, False)
             return await self.send_embed_msg(
                 ctx,
-                title=_("Unable To Play Tracks"),
+                title=("不行哇！我说不行就是不行T-T"),
                 description=_("This track is not allowed in this server."),
             )
         elif guild_data["maxlength"] > 0:
@@ -334,11 +334,11 @@ class PlayerCommands(MixinMeta, metaclass=CompositeMetaClass):
         )
         footer = None
         if not play_now and not guild_data["shuffle"] and queue_dur > 0:
-            footer = _("{time} until track playback: #1 in queue").format(
+            footer = ("嗯嗯！=-=再坚持{time} ！宝贝！").format(
                 time=self.format_time(queue_dur)
             )
         await self.send_embed_msg(
-            ctx, title=_("Track Enqueued"), description=description, footer=footer
+            ctx, title=("乖乖！跪下好好听歌啦"), description=description, footer=footer
         )
 
         if not player.current:

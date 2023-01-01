@@ -596,10 +596,10 @@ class PlayerUtilities(MixinMeta, metaclass=CompositeMetaClass):
             description = await self.get_track_description(
                 single_track, self.local_folder_current_path
             )
-            embed = discord.Embed(title=_("Track Enqueued"), description=description)
+            embed = discord.Embed(title=_("好好听歌啦宝！"), description=description)
             if not guild_data["shuffle"] and queue_dur > 0:
                 embed.set_footer(
-                    text=_("{time} until track playback: #{position} in queue").format(
+                    text=_("还有{time} 就是 #{position}，然后我们就可以！嗯=-=！ ").format(
                         time=queue_total_duration, position=before_queue_length + 1
                     )
                 )
