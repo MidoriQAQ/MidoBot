@@ -502,7 +502,7 @@ def main():
 
         data_manager.load_basic_configuration(cli_flags.instance_name)
 
-        red = Red(cli_flags=cli_flags, description="Red V3", dm_help=None)
+        red = Red(cli_flags=cli_flags, description="魔女大人绿绿子", dm_help=None)
 
         if os.name != "nt":
             # None of this works on windows.

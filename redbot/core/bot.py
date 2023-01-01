@@ -128,7 +128,7 @@ class Red(
             help__tagline="",
             help__use_tick=False,
             help__react_timeout=30,
-            description="Red V3",
+            description="魔女大人绿绿子",
             invite_public=False,
             invite_perm=0,
             invite_commands_scope=False,

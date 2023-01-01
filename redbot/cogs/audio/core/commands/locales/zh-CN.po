@@ -2066,11 +2066,11 @@ msgstr ""
 
 #: redbot/cogs/audio/core/commands/player.py:339
 msgid "{time} until track playback: #1 in queue"
-msgstr ""
+msgstr "{time} 偷偷告诉你下一首是！！嘻嘻"
 
 #: redbot/cogs/audio/core/commands/player.py:343
 msgid "Track Enqueued"
-msgstr ""
+msgstr “给本小姐跪下听歌！"
 
 #: redbot/cogs/audio/core/commands/player.py:357
 #, docstring
@@ -2093,12 +2093,12 @@ msgstr ""
 
 #: redbot/cogs/audio/core/commands/player.py:492
 msgid "No categories found"
-msgstr ""
+msgstr "诶诶诶！！魔法失灵啦！"
 
 #: redbot/cogs/audio/core/commands/player.py:496
 #: redbot/cogs/audio/core/commands/player.py:514
 msgid "No categories found, try again later."
-msgstr ""
+msgstr "诶诶诶！！魔法失灵啦！"
 
 #: redbot/cogs/audio/core/commands/player.py:501
 msgid "Categories"
@@ -2110,28 +2110,28 @@ msgstr ""
 
 #: redbot/cogs/audio/core/commands/player.py:522
 msgid "Playlists for {friendly_name}"
-msgstr ""
+msgstr "哼{friendly_name}，我给你找的！"
 
 #: redbot/cogs/audio/core/commands/player.py:529
 msgid "No tracks to play."
-msgstr ""
+msgstr "！没有歌本魔女怎么给你放嘛！！"
 
 #: redbot/cogs/audio/core/commands/player.py:539
 msgid "Couldn't find tracks for the selected playlist."
-msgstr ""
+msgstr "呜呜呜人家找不到！"
 
 #: redbot/cogs/audio/core/commands/player.py:547
 #, docstring
 msgid "Starts auto play."
-msgstr ""
+msgstr "啊！我自己动！"
 
 #: redbot/cogs/audio/core/commands/player.py:601
 msgid "You must be in the voice channel to use the autoplay command."
-msgstr ""
+msgstr "你不进语音怎么和我贴贴嘛QAQ！"
 
 #: redbot/cogs/audio/core/commands/player.py:615
 msgid "Couldn't get a valid track."
-msgstr ""
+msgstr "不行！不可以！"
 
 #: redbot/cogs/audio/core/commands/player.py:621
 #: redbot/cogs/audio/core/commands/player.py:757
@@ -2139,7 +2139,7 @@ msgstr ""
 #: redbot/cogs/audio/core/commands/player.py:897
 #: redbot/cogs/audio/core/commands/playlists.py:1928
 msgid "Unable to Get Track"
-msgstr ""
+msgstr "get不到呢"
 
 #: redbot/cogs/audio/core/commands/player.py:622
 #: redbot/cogs/audio/core/commands/player.py:758
@@ -2151,7 +2151,7 @@ msgstr ""
 
 #: redbot/cogs/audio/core/commands/player.py:636
 msgid "Adding a track to queue."
-msgstr ""
+msgstr "帮你添加啦！小笨蛋！"
 
 #: redbot/cogs/audio/core/commands/player.py:642
 #, docstring
@@ -2166,15 +2166,15 @@ msgstr ""
 #: redbot/cogs/audio/core/commands/player.py:712
 #: redbot/cogs/audio/core/commands/player.py:722
 msgid "Unable To Search For Tracks"
-msgstr ""
+msgstr "不行呢宝贝QAQ"
 
 #: redbot/cogs/audio/core/commands/player.py:723
 msgid "You must be in the voice channel to enqueue tracks."
-msgstr ""
+msgstr "你不进语音怎么和我贴贴嘛QAQ！"
 
 #: redbot/cogs/audio/core/commands/player.py:786
 #: redbot/cogs/audio/core/commands/player.py:908
-msgid "Nothing found."
+msgid "什么都找不到哇T-T好黑"
 msgstr ""
 
 #: redbot/cogs/audio/core/commands/player.py:857

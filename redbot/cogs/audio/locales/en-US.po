@@ -18,7 +18,7 @@ msgstr ""
 #: redbot/cogs/audio/audio.py:47
 #, docstring
 msgid "Play audio through voice channels."
-msgstr ""
+msgstr "好耶！！来啦来啦"
 
 #: redbot/cogs/audio/audio.py:260
 msgid "music in {} servers"
@@ -26,23 +26,23 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:300 redbot/cogs/audio/audio.py:1385
 msgid "Now Playing"
-msgstr ""
+msgstr "哼哼！现在给你放"
 
 #: redbot/cogs/audio/audio.py:304
 msgid "Track length: {length} | Requested by: {user}"
-msgstr ""
+msgstr "有这么{length}长呢！{user}宝贝你真棒=-=！"
 
 #: redbot/cogs/audio/audio.py:331
 msgid "Queue ended."
-msgstr ""
+msgstr "没了！本小姐嗨不起来啦"
 
 #: redbot/cogs/audio/audio.py:350
 msgid "Track Error"
-msgstr ""
+msgstr "错啦！"
 
 #: redbot/cogs/audio/audio.py:355
 msgid "Skipping..."
-msgstr ""
+msgstr "诶！真的要跳过吗QAQ！"
 
 #: redbot/cogs/audio/audio.py:363
 #, docstring
@@ -69,7 +69,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:400
 msgid "Response timed out, try again later."
-msgstr ""
+msgstr "你回复的真慢！不理你啦！"
 
 #: redbot/cogs/audio/audio.py:405
 msgid "DJ role enabled: {true_or_false}."
@@ -286,7 +286,7 @@ msgstr ""
 #: redbot/cogs/audio/audio.py:3375 redbot/cogs/audio/audio.py:3567
 #: redbot/cogs/audio/audio.py:3645 redbot/cogs/audio/audio.py:3675
 msgid "Nothing playing."
-msgstr ""
+msgstr "空空的QWQ"
 
 #: redbot/cogs/audio/audio.py:758
 msgid "Not connected anywhere."
@@ -472,11 +472,11 @@ msgstr ""
 #: redbot/cogs/audio/audio.py:1346
 #, docstring
 msgid "Now playing."
-msgstr ""
+msgstr "正在播放你不许急！"
 
 #: redbot/cogs/audio/audio.py:1366
 msgid "Requested by: **{track.requester}**"
-msgstr ""
+msgstr "好啦好啦！知道啦**{track.requester}**宝"
 
 #: redbot/cogs/audio/audio.py:1376
 msgid "Nothing."
@@ -485,11 +485,11 @@ msgstr ""
 #: redbot/cogs/audio/audio.py:1436
 #, docstring
 msgid "Pause or resume a playing track."
-msgstr ""
+msgstr "啊啊你是要停还是继续嘛！QAQ"
 
 #: redbot/cogs/audio/audio.py:1445
 msgid "You must be in the voice channel pause or resume."
-msgstr ""
+msgstr "可是！可是T-T你不进频道我怎么和你贴贴诶！"
 
 #: redbot/cogs/audio/audio.py:1452
 msgid "You need the DJ role to pause or resume tracks."
@@ -497,11 +497,11 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:1469
 msgid "Track Paused"
-msgstr ""
+msgstr "啊啊啊！！停！"
 
 #: redbot/cogs/audio/audio.py:1475
 msgid "Track Resumed"
-msgstr ""
+msgstr "啊啊啊！！恢复活力啦！！好耶"
 
 #: redbot/cogs/audio/audio.py:1485
 #, docstring
@@ -510,7 +510,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:1511
 msgid "Nothing in the queue."
-msgstr ""
+msgstr "T-T好空虚"
 
 #: redbot/cogs/audio/audio.py:1533
 msgid "Queued and playing tracks:"
@@ -523,7 +523,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:1549
 msgid "That URL is not allowed."
-msgstr ""
+msgstr "不可以涩涩"
 
 #: redbot/cogs/audio/audio.py:1552 redbot/cogs/audio/audio.py:2505
 #: redbot/cogs/audio/audio.py:2997 redbot/cogs/audio/audio.py:3116
@@ -544,7 +544,7 @@ msgstr ""
 #: redbot/cogs/audio/audio.py:3014 redbot/cogs/audio/audio.py:3125
 #: redbot/cogs/audio/audio.py:3625
 msgid "Connect to a voice channel first."
-msgstr ""
+msgstr "先进来嘛宝贝！"
 
 #: redbot/cogs/audio/audio.py:1572 redbot/cogs/audio/audio.py:2525
 #: redbot/cogs/audio/audio.py:3017 redbot/cogs/audio/audio.py:3128
@@ -584,11 +584,11 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:1707 redbot/cogs/audio/audio.py:1844
 msgid "This doesn't seem to be a valid Spotify URL or code."
-msgstr ""
+msgstr "诶！我的魔法会把你撕成碎片！"
 
 #: redbot/cogs/audio/audio.py:1756 redbot/cogs/audio/audio.py:2388
 msgid "Playlist Enqueued"
-msgstr ""
+msgstr "好大！好多！"
 
 #: redbot/cogs/audio/audio.py:1757 redbot/cogs/audio/audio.py:2389
 msgid "Added {num} tracks to the queue.{maxlength_msg}"
@@ -624,7 +624,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:1861 redbot/cogs/audio/audio.py:2452
 msgid "Please wait, adding tracks..."
-msgstr ""
+msgstr "我知道你很急但你不许急！"
 
 #: redbot/cogs/audio/audio.py:1877
 msgid "The connection was reset while loading the playlist."
@@ -636,7 +636,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:1908
 msgid "Approximate time remaining: {seconds}"
-msgstr ""
+msgstr "大概还剩{seconds}，就可以=-=嗯！"
 
 #: redbot/cogs/audio/audio.py:1918
 msgid "Nothing found.\\nThe YouTube API key may be invalid or you may be rate limited on YouTube's search service.\\nCheck the YouTube API key again and follow the instructions at `{prefix}audioset youtubeapi`."
@@ -659,7 +659,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:1966
 msgid "{track} is already in {playlist}."
-msgstr ""
+msgstr "我已经有了呢宝贝！（bushi"
 
 #: redbot/cogs/audio/audio.py:1975 redbot/cogs/audio/audio.py:2100
 #: redbot/cogs/audio/audio.py:2149 redbot/cogs/audio/audio.py:2312
@@ -668,7 +668,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:1982
 msgid "{track} appended to {playlist}."
-msgstr ""
+msgstr "{track} 进去 {playlist} 吧！"
 
 #: redbot/cogs/audio/audio.py:1988
 msgid "{num} tracks appended to {playlist}."
@@ -783,7 +783,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:2209
 msgid "Tracks: {num}"
-msgstr ""
+msgstr "有{num} 这么多呢！宝贝你真棒！"
 
 #: redbot/cogs/audio/audio.py:2210
 msgid "Author: {name}\\n"
@@ -827,7 +827,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:2316
 msgid "URL not in playlist."
-msgstr ""
+msgstr "找不到URL =-=！"
 
 #: redbot/cogs/audio/audio.py:2320
 msgid "No tracks left, removing playlist."
@@ -853,7 +853,7 @@ msgstr ""
 #: redbot/cogs/audio/audio.py:2360
 #, docstring
 msgid "Load a playlist into the queue."
-msgstr ""
+msgstr "啊啊啊热量加载！"
 
 #: redbot/cogs/audio/audio.py:2404
 #, docstring
@@ -927,16 +927,16 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:2613
 msgid "No previous track."
-msgstr ""
+msgstr "没捏0.0"
 
 #: redbot/cogs/audio/audio.py:2630
 msgid "Replaying Track"
-msgstr ""
+msgstr "诶！你是不是emo啦！"
 
 #: redbot/cogs/audio/audio.py:2639
 #, docstring
 msgid "List the songs in the queue."
-msgstr ""
+msgstr "全部！"
 
 #: redbot/cogs/audio/audio.py:2690
 msgid "**Currently livestreaming:**"
@@ -977,11 +977,11 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:2761
 msgid "Repeat"
-msgstr ""
+msgstr "别emo哇宝！"
 
 #: redbot/cogs/audio/audio.py:2763
 msgid "Shuffle"
-msgstr ""
+msgstr "好耶！转圈圈！"
 
 #: redbot/cogs/audio/audio.py:2808
 msgid "Matching Tracks:"
@@ -994,7 +994,7 @@ msgstr ""
 #: redbot/cogs/audio/audio.py:2820
 #, docstring
 msgid "Clears the queue."
-msgstr ""
+msgstr "T-T一滴都不剩了"
 
 #: redbot/cogs/audio/audio.py:2832
 msgid "You need the DJ role to clear the queue."
@@ -1179,7 +1179,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:3399
 msgid "You voted to skip."
-msgstr ""
+msgstr "民主投票get！"
 
 #: redbot/cogs/audio/audio.py:3412
 msgid "Vote threshold met."
@@ -1224,7 +1224,7 @@ msgstr ""
 
 #: redbot/cogs/audio/audio.py:3586
 msgid "Stopping..."
-msgstr ""
+msgstr "停！！！不许射！"
 
 #: redbot/cogs/audio/audio.py:3601
 #, docstring

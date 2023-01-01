@@ -496,7 +496,7 @@ class RedHelpFormatter(HelpFormatterABC):
         page_char_limit = min(page_char_limit, 5500)  # Just in case someone was manually...
 
         author_info = {
-            "name": _("{ctx.me.display_name} Help Menu").format(ctx=ctx),
+            "name": _("{ctx.me.display_name} の禁书目录").format(ctx=ctx),
             "icon_url": ctx.me.display_avatar,
         }
 
@@ -751,7 +751,7 @@ class RedHelpFormatter(HelpFormatterABC):
             ret = await format_fuzzy_results(ctx, fuzzy_commands, embed=use_embeds)
             if use_embeds:
                 ret.set_author(
-                    name=_("{ctx.me.display_name} Help Menu").format(ctx=ctx),
+                    name=_("{ctx.me.display_name} の禁书目录").format(ctx=ctx),
                     icon_url=ctx.me.display_avatar,
                 )
                 tagline = help_settings.tagline or self.get_default_tagline(ctx)
@@ -764,7 +764,7 @@ class RedHelpFormatter(HelpFormatterABC):
             if use_embeds:
                 ret = discord.Embed(color=(await ctx.embed_color()), description=ret)
                 ret.set_author(
-                    name=_("{ctx.me.display_name} Help Menu").format(ctx=ctx),
+                    name=_("{ctx.me.display_name} の禁书目录").format(ctx=ctx),
                     icon_url=ctx.me.display_avatar,
                 )
                 tagline = help_settings.tagline or self.get_default_tagline(ctx)
@@ -783,7 +783,7 @@ class RedHelpFormatter(HelpFormatterABC):
         if await self.embed_requested(ctx):
             ret = discord.Embed(color=(await ctx.embed_color()), description=ret)
             ret.set_author(
-                name=_("{ctx.me.display_name} Help Menu").format(ctx=ctx),
+                name=_("{ctx.me.display_name} の禁书目录").format(ctx=ctx),
                 icon_url=ctx.me.display_avatar,
             )
             tagline = help_settings.tagline or self.get_default_tagline(ctx)
